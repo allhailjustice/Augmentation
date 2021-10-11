@@ -1,2 +1,2 @@
 # Augmentation
-# pred.py is annoted and is ready for reading
+pred.py is annoted and is ready for reading
