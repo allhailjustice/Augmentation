@@ -236,6 +236,7 @@ if __name__ == '__main__':
                                                        np.load('history.npy').astype('int32') + 1, \
                                                        np.load('others.npy').astype('float32')
     # "features" is code data
+    # "lengths" is the number of visits for each patient
     # "summaries" is demographics data and visit details
     # "targets" is the label data we try to predict
     # "histories" is the codes patient used to be diagnosed prior to the targets, we don't include them as the candidate for prediction
